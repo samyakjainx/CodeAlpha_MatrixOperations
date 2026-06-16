@@ -32,9 +32,16 @@ The project demonstrates the implementation of basic matrix operations using fun
 
 CodeAlpha_MatrixOperations/
 
-│── matrix.c
+│── matrix_operations.c
 │── README.md
+│── LICENSE
+│── .gitignore
 └── screenshots/
+      │── menu.png
+      │── addition.png
+      │── multiplication.png
+      │── transpose.png
+      │── exit.png
 
 ```
 
@@ -46,7 +53,7 @@ CodeAlpha_MatrixOperations/
 
 ```
 
-gcc matrix.c -o matrix
+gcc matrix_operations.c -o matrix_operations
 
 ```
 
@@ -54,7 +61,7 @@ gcc matrix.c -o matrix
 
 ```
 
-./matrix
+./matrix_operations
 
 ```
 
@@ -62,7 +69,7 @@ or on Windows
 
 ```
 
-matrix.exe
+matrix_operations.exe
 
 ```
 
